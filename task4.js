@@ -14,10 +14,10 @@ export class FriendAge {
     }
     
     
-
+    
     returnAge() {
-    const edad = ageCalculator(this.year, this.month, this.day);
-    return `${this.name} tiene ${edad} años hoy!`;
+    const age = ageCalculator(this.year, this.month, this.day);
+    return `${this.name} tiene ${age} años hoy!`;
   }
 
   
