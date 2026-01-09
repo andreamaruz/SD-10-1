@@ -1,4 +1,6 @@
-export class FriendAge extends ageCalculator {
+import { ageCalculator } from "./task3.js";
+
+export class FriendAge {
     name;
     year;
     month;
