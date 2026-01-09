@@ -58,15 +58,15 @@ Las clases, objetos y funciones para cada una de estas tareas se importarán en 
    * Dado un monto de transacción como entrada, exporta una función que devuelva el valor que ella debería pagar.  
      * Esta función debe poder tomar un número como entrada y devolver un número como salida.
 
-3. Ed quiere una forma de ingresar los nombres de tres de sus amigos.  
+2. Ed quiere una forma de ingresar los nombres de tres de sus amigos.  
    * Exporta una clase que tomará 3 argumentos para construir un objeto con 3 propiedades.  
      * Las 3 propiedades en el constructor deben llamarse `name1`, `name2` y `name3`.
 
-4. Ed quiere una forma de calcular una edad a partir de una fecha de nacimiento dada.  
+3. Ed quiere una forma de calcular una edad a partir de una fecha de nacimiento dada.  
    * Exporta una función que tomará 3 argumentos - un **año**, un **mes** y un **día** - y luego devolverá una edad precisa.  
      * Por ejemplo, `ageCalculator(2000, 12, 25)` debería devolver la edad de alguien nacido el 25 de diciembre de 2000.
 
-5. Ed quiere una forma de calcular las edades de sus amigos.  
+4. Ed quiere una forma de calcular las edades de sus amigos.  
    * Exporta una clase que devolverá una cadena con el nombre y la edad de un amigo dado. Debe:  
      * Tomar 4 argumentos - un **nombre**, un **año**, un **mes** y un **día** - y construir un objeto con esas 4 propiedades.  
      * Tener un método público llamado `returnAge()` que devolverá la siguiente cadena: `<name> tiene <age> hoy!`
